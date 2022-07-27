@@ -1,0 +1,121 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 300px;
+    height: 226px;
+    border-radius: 30px;
+}
+/* NAVBAR */
+.navbar{
+    color: #2A55EF;
+    height: 100px;
+    font-size: 30px;
+    width: 100vw;
+}
+.left{
+    float: left;
+    margin: 10px 20px 10px 50px;
+}
+.right{
+    float: right;
+    margin: 25px;
+}
+a{
+    border: 1px solid #F4AA3B;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #2A55EF;
+    font-size: 20px;
+    margin: 20px;
+}
+a:hover{
+    background-color: #F4AA3B;
+    color: white;
+    transition: 0.4s;
+}
+/* Principale */
+.principale{
+    margin: 0;
+    width: 100vw;
+    padding-top: 60px;
+    background: url(../../img/bg.png) no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.container h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 60px;
+    color: #2A55EF;
+}
+/* Voyages disponibles */
+#voyages{
+    width: 100vw;
+}
+#voyages .container .card{
+    display: inline-block;
+    margin: 50px;
+}
+#voyages .container{
+    margin: 50px;
+}
+#voyages h1{
+    color: #2A55EF;
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+}
+/* Contact */
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A55EF;
+    width: 100vw;
+    height: 500px;
+}
+#contact h1{
+    position: absolute;
+    color: #F4AA3B;
+    font-size: 40px;
+    top: 1400px;
+}
+input, button{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    border-radius: 8px;
+}
+button{
+    background-color: #F4AA3B;
+    margin: 20px;
+    color: #2A55EF;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    transition: 1s;
+    border: 1px solid #F4AA3B;
+}
+/* FOOTER */
+footer{
+    padding-top: 20px;
+    color: #2A55EF;
+    font-size: 30x;
+    text-align: center;
+    height: 50px;
+    width: 100vw;
+}
